@@ -11,9 +11,11 @@
 		C7AA2E7B23F5F59900A1C8EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AA2E7A23F5F59900A1C8EC /* ViewController.swift */; };
 		C7AA2E7E23F5F59900A1C8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AA2E7C23F5F59900A1C8EC /* Main.storyboard */; };
 		C7AA2E8023F5F59B00A1C8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7AA2E7F23F5F59B00A1C8EC /* Assets.xcassets */; };
-		C7AA2E8323F5F59B00A1C8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AA2E8123F5F59B00A1C8EC /* LaunchScreen.storyboard */; };
 		C7AA2E8E23F5F59B00A1C8EC /* IdeateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AA2E8D23F5F59B00A1C8EC /* IdeateTests.swift */; };
 		C7AA2E9923F5F59B00A1C8EC /* IdeateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AA2E9823F5F59B00A1C8EC /* IdeateUITests.swift */; };
+		C8033C5B2405F3DD0076E079 /* SatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8033C5A2405F3DD0076E079 /* SatTableViewController.swift */; };
+		C8033C5D2405F49B0076E079 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8033C5C2405F49B0076E079 /* MapViewController.swift */; };
+		C8033C5F2405F4CE0076E079 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8033C5E2405F4CE0076E079 /* FAQViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		C7AA2E7A23F5F59900A1C8EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7AA2E7D23F5F59900A1C8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7AA2E7F23F5F59B00A1C8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C7AA2E8223F5F59B00A1C8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7AA2E8423F5F59B00A1C8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7AA2E8923F5F59B00A1C8EC /* IdeateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdeateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AA2E8D23F5F59B00A1C8EC /* IdeateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeateTests.swift; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		C7AA2E9423F5F59B00A1C8EC /* IdeateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdeateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AA2E9823F5F59B00A1C8EC /* IdeateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeateUITests.swift; sourceTree = "<group>"; };
 		C7AA2E9A23F5F59B00A1C8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8033C5A2405F3DD0076E079 /* SatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatTableViewController.swift; sourceTree = "<group>"; };
+		C8033C5C2405F49B0076E079 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C8033C5E2405F4CE0076E079 /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 				C7AA2E7A23F5F59900A1C8EC /* ViewController.swift */,
 				C7AA2E7C23F5F59900A1C8EC /* Main.storyboard */,
 				C7AA2E7F23F5F59B00A1C8EC /* Assets.xcassets */,
-				C7AA2E8123F5F59B00A1C8EC /* LaunchScreen.storyboard */,
 				C7AA2E8423F5F59B00A1C8EC /* Info.plist */,
+				C8033C5A2405F3DD0076E079 /* SatTableViewController.swift */,
+				C8033C5C2405F49B0076E079 /* MapViewController.swift */,
+				C8033C5E2405F4CE0076E079 /* FAQViewController.swift */,
 			);
 			path = Ideate;
 			sourceTree = "<group>";
@@ -229,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7AA2E8323F5F59B00A1C8EC /* LaunchScreen.storyboard in Resources */,
 				C7AA2E8023F5F59B00A1C8EC /* Assets.xcassets in Resources */,
 				C7AA2E7E23F5F59900A1C8EC /* Main.storyboard in Resources */,
 			);
@@ -256,8 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8033C5B2405F3DD0076E079 /* SatTableViewController.swift in Sources */,
 				C7AA2E7B23F5F59900A1C8EC /* ViewController.swift in Sources */,
 				C7AA2E7923F5F59900A1C8EC /* AppDelegate.swift in Sources */,
+				C8033C5F2405F4CE0076E079 /* FAQViewController.swift in Sources */,
+				C8033C5D2405F49B0076E079 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +307,6 @@
 				C7AA2E7D23F5F59900A1C8EC /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C7AA2E8123F5F59B00A1C8EC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7AA2E8223F5F59B00A1C8EC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

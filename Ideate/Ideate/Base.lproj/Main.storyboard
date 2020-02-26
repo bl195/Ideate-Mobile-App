@@ -59,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="-265" y="129"/>
         </scene>
-        <!--Help View Controller-->
+        <!--FAQViewController-->
         <scene sceneID="VJB-1h-lIT">
             <objects>
-                <viewController id="Xkb-FK-eWW" customClass="HelpViewController" customModule="Ideate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="FAQViewController" id="Xkb-FK-eWW" customClass="FAQViewController" customModule="Ideate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vr6-L1-V7S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -465,10 +465,10 @@
             </objects>
             <point key="canvasLocation" x="603" y="888"/>
         </scene>
-        <!--Map Screen-->
+        <!--MapViewController-->
         <scene sceneID="h2L-FS-fPO">
             <objects>
-                <viewController id="cDA-y8-6Dv" customClass="MapScreen" customModule="Ideate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="MapViewController" id="cDA-y8-6Dv" customClass="MapViewController" customModule="Ideate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G0y-zh-etN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
