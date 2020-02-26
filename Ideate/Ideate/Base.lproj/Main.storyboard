@@ -608,24 +608,6 @@
             </objects>
             <point key="canvasLocation" x="-265" y="854"/>
         </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="Ep9-C3-vC0">
-            <objects>
-                <tabBarController id="tEy-dh-i5C" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="s46-eG-eAo"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="a5y-LG-QaF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="fvp-H1-VRj" kind="relationship" relationship="viewControllers" id="Ees-3t-XZS"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Uv4-2k-Bz7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1133" y="854"/>
-        </scene>
         <!--Day 1-->
         <scene sceneID="hPI-xf-AdO">
             <objects>
@@ -773,7 +755,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cyc-2D-vxf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1133" y="1564"/>
+            <point key="canvasLocation" x="-1155" y="854"/>
         </scene>
     </scenes>
     <resources>
